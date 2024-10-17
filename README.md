@@ -1,4 +1,3 @@
-# super-duper-
 # Read the qa_pairs from the file
 qa_pairs = []
 with open('qa_pairs.txt', 'r') as file:
@@ -20,4 +19,3 @@ with open('qa_pairs.txt', 'r') as file:
             continue  # Skip this iteration if the split did not work as expected
 
         qa_pairs.append((context, question, answer))
-
